@@ -23,3 +23,11 @@ body {
 a {
   color: inherit;
 }
+
+/* deixa o foot no rodape */
+#root {
+  /* 100vh tamanho da tela aberta 100%  */
+  min-height: calc(100vh - var(--bodyPaddingTop));
+  display: flex;
+  flex-direction: column;
+}
